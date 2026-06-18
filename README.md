@@ -2,7 +2,7 @@
 
 This repository contains my completed implementation of **Midas Core**, a backend transaction processing system built as part of the JPMorgan Chase & Co. Advanced Software Engineering Job Simulation.
 
-## 🚀 Project Overview
+##  Project Overview
 
 The goal of this project was to extend a Spring Boot microservice to handle streaming financial transactions, store them in a database, and integrate with an external API to calculate and apply incentives.
 
@@ -13,7 +13,7 @@ The goal of this project was to extend a Spring Boot microservice to handle stre
 * **RESTful Endpoints:** Developed a robust REST Controller (`/balance`) to allow external clients to securely query user balances.
 * **Integration Testing:** Configured embedded Kafka and H2 testing environments to ensure end-to-end component functionality without external dependencies.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Java 17**
 * **Spring Boot** (Web, Data JPA, Kafka)
@@ -21,7 +21,7 @@ The goal of this project was to extend a Spring Boot microservice to handle stre
 * **H2 Embedded Database**
 * **JUnit & Mockito** (Testing)
 
-## 💡 What I Learned
+##  What I Learned
 
 * **Event-Driven Architecture:** Gained hands-on experience handling continuous data streams using Kafka.
 * **Component Integration:** Learned how to seamlessly connect database repositories, REST controllers, and messaging listeners within the Spring ecosystem.
